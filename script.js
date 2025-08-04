@@ -3,6 +3,10 @@ const scroll = new LocomotiveScroll({
     smooth: true
 });
 
+Shery.mouseFollower("#main")
+
+Shery.makeMagnet(".magnet")
+
 gsap.from(".nlink",{
     y: 10,
     stagger:.1,
@@ -65,4 +69,5 @@ document.querySelector("#futuretxt button")
         opacity:0,
         duration:1,
     })    
+
 })
