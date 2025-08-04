@@ -1,0 +1,365 @@
+@font-face {
+    font-family: 'nimbus sans';
+    src: url(./fonts/NimbusSanL-Reg.otf);
+}
+
+*{
+    padding:0%;
+    margin:0%;
+    box-sizing:border-box;
+    font-family: 'nimbus sans';
+}
+
+html,body{
+    height:100%;
+    width:100%;
+}
+
+#main{
+    width: 100%;
+}
+
+#nav{
+    text-transform: capitalize;
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 2vw 10vw;
+    width: 100%;
+}
+
+#lnav{
+    display: flex;
+    gap: 30px;
+}
+
+#nav a{
+    display: inline-block;
+    font-weight: 800;
+    text-decoration: none;
+    color: #000;
+    font-size: 12px;
+    font-weight: 500;
+}
+
+#nav #centertag{
+    font-size: 14px;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50% , -50%);
+}
+
+#hero{
+    width: 100%;
+    margin-top: 18vw;
+    padding: 0vw 7vw 0vw 10vw;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#sustain{
+    width:10vw;
+}
+
+#sustain p{
+    font-size: 12px;
+    font-weight: 800;
+    opacity: .5;
+    text-transform: capitalize;
+    margin: 15px 0;
+    
+}
+
+#sustain #susimgwrap{
+    width: 100%;
+    height: 250px;
+    overflow: hidden;
+}
+
+#susimgwrap img{
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#equilibrium{
+    position: relative;
+    min-height: 42vw;
+    width: 31vw;
+}
+
+#imgntext{
+    height: fit-content;
+    width: fit-content;
+}
+
+#equilibrium #headings{
+    position: absolute;
+    top: -18%;
+    left: -10%;
+}
+
+#equilibrium h1{
+    font-size: 6vw;
+    font-weight: 400;
+    line-height: 1;
+    letter-spacing: -4px;
+}
+
+#equilibrium p{
+    margin-top: 1.5vw;
+    width: 12vw;
+    font-size: 18px;
+    font-weight: 500;
+}
+
+#equilibrium img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#visit{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+#circlev{
+    height: 3vw;
+    width: 3vw;
+    border-radius: 50%;
+    border: 1px solid #595959;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+}
+
+#circlev i{
+    color: #595959;
+}
+
+#visit h5{
+    font-size: 14px;
+    font-weight: 800;
+    opacity: .6;
+}
+
+#motive{
+    display: flex;
+    justify-content: space-between;
+    padding: 7vw 10vw;
+    width: 100%;
+}
+
+#motive h3{
+    text-transform: uppercase;
+    font-size: 1.1vw;
+    font-weight: 500;
+    opacity: .6;
+    letter-spacing: -.5px;
+}
+
+#motive p{
+    width: 75%;
+    text-align: right;
+    font-size: 2vw;
+    font-weight: 500;
+    letter-spacing: -.14vw;
+    line-height: 2.2;
+}
+
+#motive span{
+    display: inline-block;
+    border-radius: 100px;
+    margin: 0 13px;
+    margin-bottom: -12.5px;
+}
+
+#onespan{
+    height: 50px;
+    width: 80px;
+    background-image:url(./images/bluegirl.jpg) ;
+    background-size: cover;
+    background-position: 0% 60%;
+}
+
+#twospan{
+    height: 50px;
+    width: 130px;
+    background-image:url(./images/shaljam.jpg) ;
+    background-size: cover;
+    background-position: center;
+}
+
+#threespan{
+    height: 50px;
+    width: 80px;
+    background-image:url(./images/grass.jpg) ;
+    background-size: cover;
+    background-position: 0% 60%;
+}
+ 
+#pic{
+    display: flex;
+    justify-content: space-between;
+    padding: 7vw 11vw 7vw 14vw ;
+    width: 100%;
+}
+
+#synergy{
+    height: 40vw;
+    width: 20vw;
+}
+
+#synergy h1{
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 1.2vw 0vw;
+    letter-spacing: -2px;
+}
+
+#synergy p{
+    width: 80%;
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: -.1px;
+}
+
+#synergyimg{
+    height: 30vw;
+    width: 20vw;
+}
+
+#synergyimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#harmony{
+    text-align: right;
+    height: 60vw;
+    width: 30vw;
+}
+
+#harmony h1{
+    font-size: 3vw;
+    font-weight: 500;
+    margin: 1.2vw 0vw;
+    letter-spacing: -2px;
+}
+
+#harmony p{
+    width: 80%;
+    margin-left: calc(100% - 80%) ;
+    font-size: 1.2vw;
+    font-weight: 400;
+    letter-spacing: -.1px;
+}
+
+#harmonyimg{
+    height: 50vw;
+    width: 30vw;
+}
+
+#harmonyimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: center;
+}
+
+#biopack{
+    display: flex;
+    gap: 3vw;
+    width: 100%;
+    padding: 0vw 3vw 5vw 0vw;
+}
+
+#biopackimg{
+    height: 45vw;
+    width: 70vw;
+    overflow: hidden;
+}
+
+#biopackimg img{
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    object-position: left 75%;
+}
+
+#biopacktxt{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 45vw;
+    width: 18vw;
+}
+
+#biopacktxt h1{
+    text-transform: capitalize;
+    font-size: 2.5vw;
+    font-weight: 500;
+    letter-spacing: -2px;
+    line-height: 1;
+}
+
+#biopacktxt p{
+    margin-top: 2vw;
+    font-size: 1.1vw;
+    letter-spacing: -.1px;
+}
+
+#future{
+    position: relative;
+    width: 100%;
+    height: 100vh;
+}
+
+#futuretxt{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    padding: 1vw 1vw;
+    background-color: #fff;
+    border-radius: 10px;
+}
+
+#futuretxt h1{
+    z-index: 999;
+    font-size: 2.2vw;
+    font-weight: 400;
+}
+
+#futuretxt button{
+    padding: 1.2vw 1.2vw;
+    margin: 1vw 0;
+    border-radius: 100px;
+    border: 1px solid #726f6f;
+    background-color: #dadada;
+    font-size: .7vw;
+    font-weight: 700;
+    color: #726f6f;
+    letter-spacing: -.12px;
+}
+
+#future video{
+    opacity: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    object-position: center;
+}
